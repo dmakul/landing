@@ -594,10 +594,9 @@ footer {
 }
 
 .simple-content h3 {
-    font: 700 48px/48px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font: 700 38px/28px "Avenir Next";
     border-bottom: solid 6px #f4f4f4;
-    padding-bottom: 43px;
+    padding-bottom: 23px;
     margin-bottom: 43px;
 }
 
@@ -607,6 +606,7 @@ footer {
 
 .simple-content ul li {
     font-size: 23px;
+    padding-left: 100px;
     line-height: 32px;
     font-weight: 300;
     margin-bottom: 31px;
@@ -624,6 +624,7 @@ footer {
 
 .simple-img {
     float: left;
+    padding-top: 10px;
     max-width: 587px;
     width: 53%;
 }
@@ -1056,7 +1057,7 @@ footer {
 
 /* ===[ Responsive just mobile portrait ]=== */
 
-@media (max-width: 779px) {
+@media (max-width: 750px) {
 
   header {
       padding-left: 0px;
