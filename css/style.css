@@ -1059,7 +1059,7 @@ footer {
 @media (max-width: 479px) {
 
   header {
-      padding-left: 0px;
+      padding-left: 100px;
   }
 
   header .buttons-wrapper .button.button-stripe {
@@ -1085,4 +1085,9 @@ footer {
       -o-background-size: 200px 50px;
       background-size: 200px 50px;
   }
+
+  header {
+      padding-left: 100px;
+  }
+
 }
