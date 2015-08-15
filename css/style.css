@@ -1057,6 +1057,11 @@ footer {
 /* ===[ Responsive just mobile portrait ]=== */
 
 @media (max-width: 479px) {
+
+  header {
+      padding-left: 0px;
+  }
+
   header .buttons-wrapper .button.button-stripe {
       margin-left: 0
   }
